@@ -6,6 +6,6 @@ dependencies = [
 ]
 
 [project.entry-points."dataframe.io"]
-sample_dataset = "sample_datasets:SampleDatasetsDataFrameIO"
+sample_dataset = "sample_datasets:SampleDatasets"
 
 
