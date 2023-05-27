@@ -1,0 +1,11 @@
+[project]
+name = "sample-datasets"
+version = "0.1.0"
+dependencies = [
+    "pyarrow"
+]
+
+[project.entry-points."dataframe.io"]
+sample_dataset = "sample_datasets:SampleDatasetsDataFrameIO"
+
+
